@@ -30,6 +30,8 @@ foreach( loop( 'item' ) as $item )
 	$itemMetadata['latitude'] = $location['latitude'];
 	$itemMetadata['longitude'] = $location['longitude'];
 
+	$itemMetadata['visibility'] = metadata( 'item', array( 'Item Type Metadata', 'Access status' ));
+	$itemMetadata['thumbnail'] = item_image('square_thumbnail');
 
    array_push( $multipleItemMetadata, $itemMetadata );
    

@@ -1,6 +1,6 @@
 <?php
 
-class MobileJsonPlugin extends Omeka_Plugin_AbstractPlugin
+class MobileJsonSIPlugin extends Omeka_Plugin_AbstractPlugin
 {
    protected $_filters = array(
       'response_contexts',

@@ -9,6 +9,7 @@ $itemMetadata = array(
    'source'       => metadata( 'item', array( 'Dublin Core', 'Source' ) ),
    'publisher'    => metadata( 'item', array( 'Dublin Core', 'Publisher' ) ),
    'date'         => metadata( 'item', array( 'Dublin Core', 'Date' ) ),
+   'visibility'	  => metadata( 'item', array( 'Item Type Metadata', 'Access status' ))
 );
 
 $itemMetadata['title'] = html_entity_decode(
