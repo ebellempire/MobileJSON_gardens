@@ -1,6 +1,6 @@
 <?php
 
-class MobileJson_View_Helper_TourJsonifier extends Zend_View_Helper_Abstract
+class MobileJsonSI_View_Helper_TourJsonifier extends Zend_View_Helper_Abstract
 {
    public function __construct()
    {
