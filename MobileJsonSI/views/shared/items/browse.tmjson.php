@@ -12,7 +12,7 @@ foreach( loop( 'item' ) as $item )
    $hasLocation = get_db()->getTable( 'Location' )->findLocationByItem( $item, true );
    if( $hasLocation )
    {
-      $itemMetadata = $this->itemJsonifier( $item );
+      $itemMetadata = $this->itemJsonifier( $item , true);
       array_push( $multipleItemMetadata, $itemMetadata );
    }
 }
